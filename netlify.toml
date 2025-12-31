@@ -1,0 +1,8 @@
+[build]
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+[context.production.environment]
+  TWELVE_DATA_KEY = "38ddd84787264126bea1f891d87110af"
